@@ -12,7 +12,7 @@
   <property name="show_sql">true</property>
   <property name="hbm2ddl.auto">create</property>
   
-  <mapping class = 'onetomany.EmployeeEntity'/>
-  <mapping class = 'onetomany.AccountEntity'/>
+  <mapping class = 'manyToMany.ReaderEntity'/>
+  <mapping class = 'manyToMany.SubscriptionEntity'/>
  </session-factory>
 </hibernate-configuration>
